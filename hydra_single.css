@@ -1,0 +1,92 @@
+@charset"utf-8"
+    *{
+        margin: 0;
+        padding: 0;
+}
+body{
+    background-color: darkblue;
+    color: azure;
+}
+.header{
+    background-color:blue;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    }
+.header-logo{
+    height: 60px;
+    margin-left: 10px;
+}
+.header-left{
+    float: left;
+}
+.header-right{
+    line-height: 60px;
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+.header-right a:hover{
+    background-color: darkgrey;
+}
+.header-right a{
+    line-height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: azure;
+    font-size: 20px;
+}
+.header-right ul li{
+    float: right;
+    list-style: none;
+}
+.li{
+    text-decoration: :none;
+}
+.container{
+    padding: 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    color: chartreuse;
+}
+h1{
+    color: fuchsia;
+}
+.chara_img{
+    height: 300px;
+}
+.chara_info{
+    font-size: 16px;
+}
+.chara_hydra{
+    display: flex;
+}
+.chara_info h1{
+    text-align: center;
+}
+.text_card{
+    font-size: 20px;
+    line-height: 50px;
+    width: 99%;
+    margin-top: 125px;
+    margin-left: 5px;
+}
+footer{
+    height: 100px;
+    background-color: blue;
+    color: azure;
+    font-size: 18px; 
+    bottom: 0;
+}
+.footer-left{
+    float: left;
+}
+.footer-right{
+    float: right;
+    padding-top: 41px;
+}
